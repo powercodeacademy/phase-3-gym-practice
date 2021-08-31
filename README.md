@@ -151,7 +151,7 @@ gyms for the first member in the database based on your seed data; and
   - each membership should be formatted as follows: `Membership for {insert member name} at {insert gym name} Start Date: {insert membership start_month} {insert membership start_year}`
 - `Gym#first_member`
   - returns a `Member` instance representing the Member with the earliest start year (month doesn't matter)
-- `Gym.best_value`
+- `Gym.best_value` (optional)
   - returns a `Gym` instance that has the highest star_rating to price ratio. (5 star 100$ gym has a lower value than a 3 star 50$ gym)
 
 #### Member
